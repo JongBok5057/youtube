@@ -7,7 +7,7 @@ const VideoItem = props => (
     <img className={styles.thumbnail}
     src={props.video.snippet.thumbnails.medium.url} alt="video thumbnail"/>
     <div className={styles.metadata}>
-        <p classNamestyles={styles.title}>{props.video.snippet.title}</p>
+        <p className={styles.title}>{props.video.snippet.title}</p>
         <p className={styles.channel}>{props.video.snippet.channelTitle}</p>
     </div>
     </div>
